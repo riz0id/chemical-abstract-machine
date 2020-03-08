@@ -1,0 +1,4 @@
+Test suite test: RUNNING...
+lala
+Test suite test: PASS
+Test suite logged to: /home/syzygy/Documents/haskell/Chemical-Abstract-Machine/dist-newstyle/build/x86_64-linux/ghc-8.10.0.20200123/Abstract-Chemical-Machine-1.0.0/t/test/test/Abstract-Chemical-Machine-1.0.0-test.log

@@ -1,0 +1,9 @@
+
+1. syntax
+M ≔ x | λx.M | (M M)
+
+1.1 concurrent lambda calculus.
+  where x stands for any *variable*, and (M M) is reflexive
+and transitive closure. 
+
+1.2

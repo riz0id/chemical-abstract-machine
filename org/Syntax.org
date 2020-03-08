@@ -1,0 +1,8 @@
+
+* solutions
+  a solution S is a multiset of *molecules*
+  
+  S = [α.m, β.m, ...]
+
+* reaction semantics
+  reactions are defined multiset rewrite rules.

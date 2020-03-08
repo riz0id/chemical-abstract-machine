@@ -1,0 +1,26 @@
+name:          Abstract-Chemical-Machine
+version:       1.0.0
+license:       BSD3
+license-file:  LICENSE
+cabal-version: >= 1.18
+build-type:    Simple
+
+library ACM
+      build-depends:       base >= 4 && < 5
+      hs-source-dirs:      lib
+      exposed-modules:     Control.Cham.Name
+                         , Control.Cham.Label
+                         , Control.Cham.Context
+                         , Control.Cham.Agent
+                         , Control.Cham.Molecule
+      ghc-options:         -Wall
+
+test-suite test
+      type:                exitcode-stdio-1.0
+      hs-source-dirs:      test
+      main-is:             Test.hs
+      build-depends:       ACM
+                         , base
+                         , containers
+                         , mtl
+      
